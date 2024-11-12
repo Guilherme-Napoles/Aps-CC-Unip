@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.img-bg img {
+    zoom: 2;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Distribui a imagem e os links igualmente */
+    font-family: 'Poppins';
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px 10px; /* Adicione um padding maior se precisar de mais espaço */
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.menu img {
+    width: 30px;
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #0A3A40;
+    text-decoration: none;
+    margin: 0px 30px; /* Espaço horizontal entre os links */
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #062327; /* Cor diferente ao passar o mouse */
+}
+
+.body {
+    justify-content: center;
+    align-items: center;
+    color: #0A3A40;
+}
+
+.body-textos {
+    max-width: 800px; /* Define a largura máxima para não expandir demais */
+    text-align: center; /* Alinha o conteúdo interno ao centro */
+    margin: 0 auto; /* Centraliza a div no corpo da página */
+    padding: 20px; /* Espaçamento interno para um layout mais bonito */
+}
+
+.fonte-titulo {
+    font-family: 'Poppins';
+    font-size: 2.3rem; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 20px;
+}
+
+.textos-cc{
+    width: 55%;
+    text-align: justify; /* Alinha o conteúdo interno ao centro */
+    margin: 0 auto; /* Centraliza a div no corpo da página */
+    padding: 20px; /* Espaçamento interno para um layout mais bonito */
+}
+
+.fonte-textos {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas para facilitar a leitura */
+    margin-bottom: 1.25em;
+}
+
+.fonte-titulo-cc {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 2.3rem; /* Ajuste o tamanho conforme necessário */
+    margin-bottom: 1.25em;
+}
+
+.fonte-textos-cc {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.6; /* Aumenta o espaçamento entre as linhas para facilitar a leitura */
+    margin-bottom: 10px;
+}
+
+.img-noticia {
+    width: 100%;
+    margin: 20px auto; /* Centraliza a imagem e adiciona espaço acima e abaixo */
+    display: block;
+}
+
+.botao {
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+
+.botao-reduzir{
+    font-family: 'Poppins';
+    background: #0F5959;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.botao-refazer{
+    font-family: 'Poppins';
+    background: #0F5959;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+footer {
+    font-family: 'Poppins';
+    background-color: #042326; /* Cor de fundo */
+    color: white; /* Cor do texto para contraste */
+    padding: 15px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+
+/* Styles voltado para os cards */
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    margin-bottom: 2em;
+}
+
+.card {
+    width: 50%;
+    background-color: #1e7168;
+    border-radius: 10px;
+    overflow: hidden;
+    color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cardtitulo {
+    background-color: #3c9487;
+    padding: 15px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 14px;
+}
+
+/* Conteúdo do Card */
+
+.conteudo {
+    display: flex;
+    align-items: flex-start; /* Alinha o ícone e o conteúdo de texto no topo */
+    padding: 20px;
+    gap: 20px; /* Espaço entre o ícone e o conteúdo de texto */
+}
+
+.icone {
+    display: flex;
+    justify-content: center; /* Centraliza o ícone horizontalmente */
+    align-items: center; /* Centraliza o ícone verticalmente */
+}
+
+.icones img {
+    margin-top: 1em;
+    width: 4em;
+    height: 4em;
+}
+
+.consumo {
+    display: flex;
+    flex-direction: column; /* Organiza os itens verticalmente */
+    gap: 10px; /* Espaço entre os itens */
+    flex: 1; /* Permite que o conteúdo ocupe o espaço restante */
+}
+
+.consumo-titulo {
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.consumo input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.consumo input::placeholder {
+    color: #e0e0e0;
+    font-family: 'Poppins';
+}
+
+.consumo-resultado {
+    font-size: 13px;
+}
